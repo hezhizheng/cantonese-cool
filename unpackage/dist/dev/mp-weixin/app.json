@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/feature/index",
+    "pages/profile/index",
+    "pages/profile/info",
+    "pages/profile/name",
+    "pages/about/index",
+    "uview-ui/components/u-avatar-cropper/u-avatar-cropper",
+    "pages/profile/fav",
+    "pages/music/music"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "cantonese-cool",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#FF9900",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./static/home.png",
+        "selectedIconPath": "./static/color_home.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/feature/index",
+        "iconPath": "./static/vo.png",
+        "selectedIconPath": "./static/color_vo.png",
+        "text": "朗读"
+      },
+      {
+        "pagePath": "pages/profile/index",
+        "iconPath": "./static/my.png",
+        "selectedIconPath": "./static/color_my.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

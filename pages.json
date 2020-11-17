@@ -1,0 +1,90 @@
+{
+	"easycom": {
+			"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+		},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/feature/index",
+			"style": {
+				"navigationBarTitleText": "朗读"
+			}
+		},
+		{
+			"path": "pages/profile/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/profile/info",
+			"style": {
+				"navigationBarTitleText": "个人信息"
+			}
+		},
+		{
+			"path": "pages/profile/name",
+			"style": {
+				"navigationBarTitleText": "昵称"
+			}
+		},
+		{
+			"path": "pages/about/index",
+			"style": {
+				"navigationBarTitleText": "关于"
+			}
+		},
+		{
+			"path": "uview-ui/components/u-avatar-cropper/u-avatar-cropper",
+			"style": {
+				"navigationBarTitleText": "头像裁剪",
+				"navigationBarBackgroundColor": "#000000"
+			}
+		},
+		{
+			"path": "pages/profile/fav",
+			"style": {
+				"navigationBarTitleText": "收藏列表"
+			}
+		}
+		,{
+			"path": "pages/music/music",
+			"style": {
+				"navigationBarTitleText": "音乐播放器"
+			}
+		}
+	],
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#FF9900",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+			"iconPath": "./static/home.png",
+			"selectedIconPath": "./static/color_home.png",
+	        "text": "首页"
+	    },{
+	        "pagePath": "pages/feature/index",
+			"iconPath": "./static/vo.png",
+			"selectedIconPath": "./static/color_vo.png",
+	        "text": "朗读"
+	    }, {
+	        "pagePath": "pages/profile/index",
+			"iconPath": "./static/my.png",
+			"selectedIconPath": "./static/color_my.png",
+	        "text": "我的"
+	    }]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "cantonese-cool",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	}
+}

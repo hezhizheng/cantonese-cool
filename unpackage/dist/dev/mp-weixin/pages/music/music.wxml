@@ -1,0 +1,1 @@
+<view><uni-list vue-id="a464a218-1" bind:__l="__l" vue-slots="{{['default']}}"><uni-list-item vue-id="{{('a464a218-2')+','+('a464a218-1')}}" ellipsis="2" title="痴线嘅  " rightText="播放 🔊" data-event-opts="{{[['^click',[['']]]]}}" bind:click="__e" bind:__l="__l"></uni-list-item></uni-list><view></view></view>
