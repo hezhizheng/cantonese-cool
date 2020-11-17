@@ -1,8 +1,0 @@
-{
-  "navigationBarTitleText": "翻译",
-  "usingComponents": {
-    "u-button": "/uview-ui/components/u-button/u-button",
-    "u-card": "/uview-ui/components/u-card/u-card",
-    "u-toast": "/uview-ui/components/u-toast/u-toast"
-  }
-}

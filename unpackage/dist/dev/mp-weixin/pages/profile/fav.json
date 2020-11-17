@@ -1,8 +1,0 @@
-{
-  "navigationBarTitleText": "收藏列表",
-  "usingComponents": {
-    "uni-list": "/components/uni-list/uni-list",
-    "uni-list-item": "/components/uni-list-item/uni-list-item",
-    "u-toast": "/uview-ui/components/u-toast/u-toast"
-  }
-}
