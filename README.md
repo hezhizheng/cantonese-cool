@@ -3,7 +3,7 @@
 
 ![free-pic](https://static01.imgkr.com/temp/4b39ae848b294620a629173bf9fb9ec6.png)
 
-![free-pic](https://static01.imgkr.com/temp/44f1db53a5f84fb6949c322d64c64f5a.jpg)
+![free-pic](https://static01.imgkr.com/temp/196337427abc4b6cb4072bca6e1f2d70.jpg)
 
 ### Why ？
 > 广东话要学一世，无奈口音太难改，特别是碰到  `政、静` 、`攰、贵` `上、想` 这样发音差不多的字眼更是不知道讲的到底是哪一个字。
