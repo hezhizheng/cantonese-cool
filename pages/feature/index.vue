@@ -230,7 +230,8 @@
 		}
 		
 		.favBtn {
-			padding-left: 550rpx;
+			display: flex;
+			justify-content: flex-end;
 		}
 
 </style>
