@@ -118,7 +118,8 @@
 				this.readText = "";
 				this.readTextPinyin = "";
 				
-				innerAudioContext.src = 'http://120.24.87.124/cgi-bin/ekho2.pl?cmd=SPEAK&voice=EkhoCantonese&speedDelta=0&pitchDelta=-10&volumeDelta=0&text='+t;
+				//innerAudioContext.src = 'http://120.24.87.124/cgi-bin/ekho2.pl?cmd=SPEAK&voice=EkhoCantonese&speedDelta=0&pitchDelta=-10&volumeDelta=0&text='+t;
+				innerAudioContext.src = 'https://hzz.cool/eguidedog.php?tts_text='+t;
 				innerAudioContext.play()
 				innerAudioContext.onPlay(() => {
 				  console.log('开始播放  ');
