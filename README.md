@@ -1,7 +1,7 @@
 ## CantoneseCool
 > 一个能说广东话的小程序。
 
-> [h5在线体验](https://cantonese.hzz.cool/#/pages/feature/index)
+> [h5在线体验](http://cantonese.hzz.cool/#/pages/feature/index)
 
 ![free-pic](https://static01.imgkr.com/temp/4b39ae848b294620a629173bf9fb9ec6.png)
 
