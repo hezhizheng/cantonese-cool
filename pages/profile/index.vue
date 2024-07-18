@@ -17,14 +17,15 @@
 		
 		<view class="u-m-t-20">
 			<u-cell-group>
-				<u-cell-item v-on:click="GoFav" icon="https://static01.imgkr.com/temp/67e7b5e7f4354a88abe52ee462b2cad4.png" title="最近收藏"></u-cell-item>
+				<u-cell-item v-on:click="GoFav" icon="/static/fav.png" title="最近收藏"></u-cell-item>
+				
 				<!-- <u-cell-item v-on:click="GoMusic" icon="https://static01.imgkr.com/temp/051b2289d26243cabca90d6bc0042f10.png" title="Cantopop"></u-cell-item> -->
 			</u-cell-group>
 		</view>
 		
 		<view class="u-m-t-20">
 			<u-cell-group>
-				<u-cell-item v-on:click="GoAboutIndex" icon="https://static01.imgkr.com/temp/f74087f586584c04be601814104a16a8.png" title="关于"></u-cell-item>
+				<u-cell-item v-on:click="GoAboutIndex" icon="/static/about.png" title="关于"></u-cell-item>
 			</u-cell-group>
 		</view>
 		
@@ -37,8 +38,9 @@
 	export default {
 		data() {
 			return {
-				pic:'https://static01.imgkr.com/temp/58333e3d93d5444f8f308c0fe9dfb9a3.jpg',
-				show:true,
+				
+				// pic:'https://static01.imgkr.com/temp/58333e3d93d5444f8f308c0fe9dfb9a3.jpg',
+				// show:true,
 			}
 		},
 		onLoad() {

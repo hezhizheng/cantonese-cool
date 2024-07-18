@@ -1,6 +1,6 @@
 <template>
 	<view class="content">
-		<image class="logo" src="https://static01.imgkr.com/temp/fbf5d9abd6594d43a4b9d509fef222fd.png"></image>
+		<image class="logo" src="/static/lb.png"></image>
 		<view class="text-area">
 			<text class="title">CantoneseCool 😎 🍻</text>
 		</view>
@@ -26,6 +26,11 @@
 </script>
 
 <style>
+	.logo {
+		width: 260rpx;
+	    height: 260rpx;
+	}
+	
 	.content {
 		display: flex;
 		flex-direction: column;
